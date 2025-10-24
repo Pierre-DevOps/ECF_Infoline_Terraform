@@ -21,19 +21,19 @@ Déploiement automatisé d'une infrastructure Azure complète avec Terraform.
 - Azure Functions
 - PowerShell
 
-# Structure du projet
+## 📁 Structure du projet
 
 ECF_Infoline_Terraform/
-├── terraform/
-│   ├── provider.tf       # Configuration des providers Azure
-│   ├── variables.tf      # Variables paramétrables
-│   ├── main.tf           # Infrastructure principale (AKS + Functions)
-│   ├── ssh.tf            # Génération automatique des clés SSH
-│   ├── outputs.tf        # Informations affichées après déploiement
-│   ├── terraform.tfvars  # Valeurs des variables (non publié)
-│   └── .gitignore        # Fichiers à ne pas publier
-├── screenshots/          # Captures d'écran du projet
-└── docs/                 # Documentation
+  - terraform/
+      - provider.tf       (Configuration des providers Azure)
+      - variables.tf      (Variables paramétrables)
+      - main.tf           (Infrastructure principale - AKS + Functions)
+      - ssh.tf            (Génération automatique des clés SSH)
+      - outputs.tf        (Informations affichées après déploiement)
+      - terraform.tfvars  (Valeurs des variables - non publié)
+      - .gitignore        (Fichiers à ne pas publier)
+      - README.md         (Documentation technique)
+  - screenshots/          (Captures d'écran du projet)
 
 # Déploiement
 
