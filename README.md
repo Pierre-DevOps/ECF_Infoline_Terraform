@@ -22,6 +22,7 @@ Déploiement automatisé d'une infrastructure Azure complète avec Terraform.
 - PowerShell
 
 # Structure du projet
+
 ECF_Infoline_Terraform/
 ├── terraform/
 │   ├── provider.tf       # Configuration des providers Azure
