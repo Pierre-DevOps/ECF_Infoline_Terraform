@@ -33,7 +33,7 @@ ECF_Infoline_Terraform/
       - terraform.tfvars  (Valeurs des variables - non publié)
       - .gitignore        (Fichiers à ne pas publier)
       - README.md         (Documentation technique)
-  - screenshots/          (Captures d'écran du projet)
+  
 
 # Déploiement
 
