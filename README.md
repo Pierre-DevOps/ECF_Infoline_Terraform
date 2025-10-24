@@ -7,11 +7,11 @@ Déploiement automatisé d'une infrastructure Azure complète avec Terraform.
 
 #  Infrastructure déployée
 
-- ✅ **Cluster Kubernetes (AKS)** : 2 nodes Standard_B2s
-- ✅ **Azure Function App** : Service serverless d'authentification (Node.js 18)
-- ✅ **Storage Account** : Stockage pour Azure Functions
-- ✅ **App Service Plan** : Plan Consumption (Y1)
-- ✅ **Clés SSH** : Générées automatiquement
+-  **Cluster Kubernetes (AKS)** : 2 nodes Standard_B2s
+-  **Azure Function App** : Service serverless d'authentification (Node.js 18)
+-  **Storage Account** : Stockage pour Azure Functions
+-  **App Service Plan** : Plan Consumption (Y1)
+-  **Clés SSH** : Générées automatiquement
 
 # Technologies utilisées
 
@@ -21,7 +21,7 @@ Déploiement automatisé d'une infrastructure Azure complète avec Terraform.
 - Azure Functions
 - PowerShell
 
-## 📁 Structure du projet
+# Structure du projet
 
 ECF_Infoline_Terraform/
   - terraform/
@@ -92,10 +92,10 @@ terraform destroy
 
 # Sécurité
 
-- ✅ Clés SSH générées automatiquement
-- ✅ System Assigned Identity pour AKS
-- ✅ .gitignore protège les fichiers sensibles
-- ✅ terraform.tfvars avec Id Azure non publié sur GitHub
+-  clés SSH générées automatiquement
+-  System Assigned Identity pour AKS
+-  .gitignore protège les fichiers sensibles
+-  terraform.tfvars avec Id Azure non publié sur GitHub
 
 # Auteur
 
