@@ -99,7 +99,7 @@ resource "azurerm_linux_function_app" "function_app" {
 
   site_config {
     application_stack {
-      node_version = "18"
+      node_version = "20"
     }
   }
   
