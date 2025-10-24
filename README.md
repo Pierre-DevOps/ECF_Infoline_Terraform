@@ -53,7 +53,7 @@ az login
 2. *Configuration*
 ```bash
 cd terraform
-# Créer terraform.tfvars avec votre Subscription ID
+Créer terraform.tfvars avec votre Subscription ID
 ```
 
 3. *Initialisation*
