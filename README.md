@@ -8,7 +8,7 @@ Déploiement automatisé d'une infrastructure Azure complète avec Terraform.
 #  Infrastructure déployée
 
 -  **Cluster Kubernetes (AKS)** : 2 nodes Standard_B2s
--  **Azure Function App** : Service serverless d'authentification (Node.js 18)
+-  **Azure Function App** : Service serverless d'authentification (Node.js 20)
 -  **Storage Account** : Stockage pour Azure Functions
 -  **App Service Plan** : Plan Consumption (Y1)
 -  **Clés SSH** : Générées automatiquement
